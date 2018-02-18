@@ -4,8 +4,9 @@
 
 # checks whether the files are different in the home repo
 ISDIFF=0
+FILES=$(ls ~/dotfiles | grep -v "collect.sh" | grep -v "README.md" | grep -v "iterm2_profile")
 
-for files in $(ls ~/dotfiles | grep -v "collect.sh" | grep -v "README.md")
+for files in $FILES
 do
   if diff ~/.$files ~/dotfiles/$files > /dev/null ; then
     echo "${files} is the same"
@@ -17,7 +18,7 @@ done
 
 # copys files from home to dotfiles if their are changes
 if [ "$ISDIFF" -eq "1" ]; then
- for files in $(ls ~/dotfiles | grep -v "collect.sh" | grep -v "README.md")
+ for files in $FILES
  do
   cp ~/.$files ~/dotfiles
   mv ~/dotfiles/.$files ~/dotfiles/$files
