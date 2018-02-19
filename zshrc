@@ -5,7 +5,7 @@ export ZSH=/Users/justinbeharry/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="justin-custom"
-
+PS2="❯ "
 # The following line changes how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=13
 
