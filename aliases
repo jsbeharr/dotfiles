@@ -1,0 +1,28 @@
+# moving between directories
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# making and removing directories
+alias md='mkdir -p'
+alias rd=rmdir
+
+# List directory contents
+alias lsa='ls -lah'
+alias l='ls -lah'
+alias ll='ls -lh'
+alias la='ls -lAh'
+
+# Push and pop directories on directory stack
+alias pu='pushd'
+alias po='popd'
+
+# set vi command to open neovim
+alias vi="nvim"
+alias vim="nvim"
+alias vimdiff="nvim -d"
+
+# for .zshrc configuration
+alias zshconfig="vi ~/.zshrc"
+
+# For MacOS
+alias ctags="'brew --prefix'/bin/ctags"
