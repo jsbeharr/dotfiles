@@ -8,9 +8,7 @@ FILES=$(ls ~/dotfiles | grep -v "collect.sh" | grep -v "README.md" | grep -v "it
 
 for files in $FILES
 do
-  if diff ~/.$files ~/dotfiles/$files > /dev/null ; then
-    echo "${files} is the same"
-  else 
+  if ! diff ~/.$files ~/dotfiles/$files > /dev/null ; then
     echo "${files} is different"
     ISDIFF=1
   fi

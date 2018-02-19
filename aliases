@@ -4,7 +4,7 @@ alias ...='cd ../..'
 
 # making and removing directories
 alias md='mkdir -p'
-alias rd=rmdir
+alias rd='rmdir'
 
 # List directory contents
 alias lsa='ls -lah'
