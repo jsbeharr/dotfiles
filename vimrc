@@ -27,6 +27,9 @@ let g:airline_theme='murmur'
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
 
+" C language completion
+let g:ycm_global_ycm_extra_conf = ".vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+
 " Autocompletion menu color
 hi Pmenu ctermbg=grey ctermfg=white
 hi PmenuSel ctermbg=blue ctermfg=white
