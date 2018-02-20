@@ -25,4 +25,6 @@ alias vimdiff="nvim -d"
 alias zshconfig="vi ~/.zshrc"
 
 # For MacOS
-alias ctags="$(brew --prefix)/bin/ctags"
+if [[ $(uname) == 'Darwin' ]]; then
+  alias ctags="$(brew --prefix)/bin/ctags"
+fi
