@@ -9,6 +9,13 @@ PS2="❯ "
 # The following line changes how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=13
 
+export CLICOLOR=1
+
+# sets term to iterm2 of mac
+if [[ $(uname) == 'Darwin' ]]; then
+  export TERM=xterm-256color
+fi
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -35,4 +42,6 @@ fi
 . /etc/motd.sh
 
 # shell integration for iterm2
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+if [[ $(uname) == 'Darwin' ]]; then
+  test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+fi
