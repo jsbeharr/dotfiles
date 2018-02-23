@@ -33,3 +33,7 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 " Autocompletion menu color
 hi Pmenu ctermbg=grey ctermfg=white
 hi PmenuSel ctermbg=blue ctermfg=white
+
+" Key mappings
+map <C-S> :setlocal spell! spelllang=en_us<CR>
+
