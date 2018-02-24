@@ -1,0 +1,11 @@
+black:    #171717    black-bright:  #686868
+red:      #fe4386      red-bright:  #fa80ac
+green:    #a6e32d    green-bright:  #bde371   
+yellow:   #e6da73   yellow-bright:  #fff27f
+blue:     #0094d9     blue-bright:  #00beff
+magenta:  #9b37ff  magenta-bright:  #be9eff 
+cyan:     #50b7d9     blue-bright:  #5ed7ff
+white:    #c7c7c7    white-bright:  #ffffff
+
+Foreground: #c7c7c7
+Background: #171717
