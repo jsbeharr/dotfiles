@@ -21,10 +21,13 @@ alias vi="nvim"
 alias vim="nvim"
 alias vimdiff="nvim -d"
 
+# for fun
+alias mapscii="telnet mapscii.me"
+
 # for .zshrc configuration
 alias zshconfig="vi ~/.zshrc"
 
-# For MacOS
+# For MacOS ctags usage
 if [[ $(uname) == 'Darwin' ]]; then
   alias ctags="$(brew --prefix)/bin/ctags"
 fi

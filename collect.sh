@@ -4,7 +4,7 @@
 
 # checks whether the files are different in the home repo
 ISDIFF=0
-FILES=$(ls ~/dotfiles | egrep -v "collect.sh|README.md|iterm2_profile")
+FILES=$(ls ~/dotfiles | egrep -v "brew_installation.sh|collect.sh|README.md|iterm2_profile")
 
 for files in $FILES
 do
