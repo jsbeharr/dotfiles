@@ -38,9 +38,6 @@ if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
 
-# opening message - requires neofetch
-. /etc/motd.sh
-
 # shell integration for iterm2
 if [[ $(uname) == 'Darwin' ]]; then
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
