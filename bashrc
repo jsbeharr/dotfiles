@@ -3,8 +3,7 @@ if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
 
-PATH="/usr/local/bin:/usr/bin:/bin"
-export PATH
+export PATH="/usr/local/bin:/usr/bin:/bin:/anaconda3/bin"
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 export PS1="\[\033[1;38m\][\d:\u:\W ] $\[\033[0m\] "
