@@ -31,7 +31,16 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
-export EDITOR='nvim'
+
+# Default Editor
+# Sets neovim as default editor if it is installed
+# Otherwise regular vim will be the default
+if [ -x "$(command -v nvim)" ]; then
+  export VISUAL=nvim
+else
+  export VISUAL=vim
+fi
+export EDITOR=$VISUAL
 
 # aliases
 if [ -f ~/.aliases ]; then

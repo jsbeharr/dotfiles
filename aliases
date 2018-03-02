@@ -16,10 +16,12 @@ alias la='ls -lAh'
 alias pu='pushd'
 alias po='popd'
 
-# set vi command to open neovim
-alias vi="nvim"
-alias vim="nvim"
-alias vimdiff="nvim -d"
+# set vi command to open neovim if neovim is installed
+if [ "$EDITOR" = "nvim" ]; then
+  alias vi="nvim"
+  alias vim="nvim"
+  alias vimdiff="nvim -d"
+fi
 
 # for fun
 alias mapscii="telnet mapscii.me"
