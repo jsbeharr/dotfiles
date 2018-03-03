@@ -28,7 +28,8 @@ if [ -f ~/.git-completion.bash ]; then
 	. ~/.git-completion.bash
 fi
 
-# Bash Autocompletion
+# Bash Autocompletion for mac
+# Must install through homebrew in order to work
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
