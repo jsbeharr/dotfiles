@@ -1,3 +1,6 @@
+# My Bash settings
+# .bash_profile and .bashrc use the same settings
+#
 # Prompt Configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/anaconda3/bin"
 export CLICOLOR=1
