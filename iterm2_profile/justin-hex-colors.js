@@ -1,6 +1,4 @@
-Foreground: #dee2ea
-Background: #000000
-
+{
 colors: {
   black: '#2a2a2a', 
   red: '#fc2d1e',
@@ -18,4 +16,7 @@ colors: {
   lightMagenta: '#6668c6',
   lightCyan: '#0092e2',
   lightWhite: '#ffffff'
- }
+  foregroundColor: '#dee2ea',
+  backgroundColor: '#181818'
+  }
+}
