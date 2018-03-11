@@ -1,21 +1,21 @@
-colors: {
-  black:    '#2a2a2a', 
-  lightBlack:  '#dee2ea',
-  red:      '#fc2d1e',
-  lightRed:  #e74c3c,
-  green:    '#2fcc71',
-  lightGreen:  '#07d774',
-  yellow:   '#f1c40d', 
-  lightYellow:  '#f6c700',
-  blue:     '#3398db',
-  lightBlue:  '#0095de',
-  magenta:  '#6171c4' 
-  lightMagenta:  '#6668c6',
-  cyan: '#0095de',
-  lightCyan:  '#0092e2',
-  white:    '#dee2ea',
-  lightWhite:  '#ffffff'
- }
-
 Foreground: #dee2ea
 Background: #000000
+
+colors: {
+  black: '#2a2a2a', 
+  red: '#fc2d1e',
+  green: '#2fcc71',
+  yellow: '#f1c40d', 
+  blue: '#3398db',
+  magenta: '#6171c4' 
+  cyan: '#0095de',
+  white: '#dee2ea',
+  lightBlack: '#dee2ea',
+  lightRed: '#e74c3c',
+  lightGreen: '#07d774',
+  lightYellow: '#f6c700',
+  lightBlue: '#0095de',
+  lightMagenta: '#6668c6',
+  lightCyan: '#0092e2',
+  lightWhite: '#ffffff'
+ }
