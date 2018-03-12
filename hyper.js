@@ -27,13 +27,17 @@ module.exports = {
     foregroundColor: '#dee2ea',
 
     // terminal background color
-    backgroundColor: '#181818',
+    backgroundColor: 'rgb(24, 24, 24)',
+
+    // transparent background
 
     // border color (window, tabs)
     borderColor: '#ee1111',
 
     hyperBorder: {
-      borderWidth: '1px'
+      borderWidth: '1px',
+      //borderColors: ['#3398db', '#2fcc71']
+      borderColors: ['#000000, #000000']
     },
 
     // custom css to embed in the main window
@@ -119,7 +123,13 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperborder', 'hyperminimal'],
+  plugins: [
+    'hyperborder', 
+    'hyperminimal', 
+    'hyper-statusline', 
+    'hyper-search', 
+    'hyper-quit',
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -129,5 +139,6 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
+    'window:toggleFullScreen': 'cmd+enter'
   }
 };
