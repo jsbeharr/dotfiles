@@ -15,7 +15,7 @@ module.exports = {
     fontFamily: '"Hack", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: '#ee1111',
+    cursorColor: '#3498db',
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BEAM',
@@ -129,6 +129,7 @@ module.exports = {
     'hyper-statusline', 
     'hyper-search', 
     'hyper-quit',
+    'gitrocket'
   ],
 
   // in development, you can create a directory under
