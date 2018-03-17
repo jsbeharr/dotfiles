@@ -36,8 +36,8 @@ module.exports = {
 
     hyperBorder: {
       borderWidth: '1px',
-      //borderColors: ['#3398db', '#2fcc71']
-      borderColors: ['#000000, #000000']
+      borderColors: ['#000000, #000000'],
+      blurredColors: ['#111111, #111111']
     },
 
     // custom css to embed in the main window
