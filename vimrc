@@ -22,6 +22,8 @@ set expandtab
 " colorscheme for editor and airline bar
 colorscheme delek
 let g:airline_theme='murmur'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " javascript autocompletion
 let g:javascript_plugin_jsdoc = 1
