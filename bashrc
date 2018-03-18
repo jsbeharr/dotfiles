@@ -23,19 +23,19 @@ export EDITOR=$VISUAL
 GIT_PROMPT_ONLY_IN_REPO=1
 GIT_PROMPT_THEME=Solarized
 if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-	__GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
-	. "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
+  __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
+  . "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
 # Git Autocompletion
 if [ -f ~/.git-completion.bash ]; then
-	. ~/.git-completion.bash
+  . ~/.git-completion.bash
 fi
 
 # Bash Autocompletion for mac
 # Must install through homebrew in order to work
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	. $(brew --prefix)/etc/bash_completion
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # alias
