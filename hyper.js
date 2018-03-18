@@ -141,6 +141,6 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
-    'window:toggleFullScreen': 'cmd+enter'
+    'window:toggleFullScreen': 'cmd+return'
   }
 };
