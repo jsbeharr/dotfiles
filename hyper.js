@@ -129,7 +129,8 @@ module.exports = {
     'hyper-statusline', 
     'hyper-search', 
     'hyper-quit',
-    'gitrocket'
+    'gitrocket',
+    'space-pull'
   ],
 
   // in development, you can create a directory under
