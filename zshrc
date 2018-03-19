@@ -14,7 +14,8 @@ CASE_SENSITIVE="true"
 plugins=(
   git,
   iterm2,
-  osx
+  osx,
+  zsh-syntax-highlighting
 )
 
 # sources oh-my-zsh
