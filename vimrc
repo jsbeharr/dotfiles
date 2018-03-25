@@ -41,4 +41,4 @@ set updatetime=100
 
 " Key mappings
 map <C-S> :setlocal spell! spelllang=en_us<CR>
-
+nnoremap ; :
