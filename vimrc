@@ -5,9 +5,11 @@ filetype plugin indent on
 " Enters Nerdtree when no file is specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+set guifont=hack:h11
 
 " utility settings
 set t_Co=256 " fixes coloring issues
+set encoding=utf8 " devicons plugin
 set clipboard=unnamed " alows for universal copy and paste
 set nu " lines numbers
 set mouse=a " enables mouse to click on files
@@ -38,6 +40,13 @@ hi PmenuSel ctermbg=blue ctermfg=white
 
 " Git Gutter delay Time
 set updatetime=100
+
+" Markdown Preview
+let vim_markdown_preview_github=1
+let vim_markdown_preview_browser='brave'
+" Un-Comment in no internet connection is available
+" let vim_markdown_preview_toggle=1
+" let vim_markdown_preview_temp_file=1
 
 " Key mappings
 map <C-S> :setlocal spell! spelllang=en_us<CR>
