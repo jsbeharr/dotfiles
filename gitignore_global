@@ -32,6 +32,7 @@ cmake-build-debug/
 npm-debug.log
 testem.log
 /typings
+package-lock.json
 
 # Compiled source #
 ###################
