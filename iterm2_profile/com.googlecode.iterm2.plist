@@ -2057,13 +2057,13 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 205 606 469 0 0 1280 778 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>215 274 770 429 0 0 1280 778 </string>
+	<string>130 172 796 473 0 0 1280 778 </string>
 	<key>NSWindow Frame com.apple.typography_panel_InconsolataForPowerline</key>
 	<string>212 475 260 46 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 58 1278 720 0 0 1280 778 </string>
+	<string>0 366 600 412 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>640 57 635 721 0 0 1280 778 </string>
+	<string>640 366 600 412 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>0 0 1280 800 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -2312,9 +2312,9 @@
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
-			<real>13.585419971446699</real>
+			<real>14.853164657360406</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -2788,7 +2788,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.29411683058375632</real>
 			<key>Unicode Normalization</key>
 			<integer>0</integer>
 			<key>Unicode Version</key>
@@ -2914,7 +2914,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-08T18:56:54Z</date>
+	<date>2018-04-13T04:26:35Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
