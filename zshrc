@@ -4,9 +4,6 @@ export ZSH=~/.oh-my-zsh
 # ZSH Shell Theme - Uses custom made theme 
 ZSH_THEME="justin-custom"
 
-# When ZSH updates 
-export UPDATE_ZSH_DAYS=13
-
 # Case sensitive autocompletion
 CASE_SENSITIVE="true"
 
@@ -15,7 +12,6 @@ plugins=(
   git,
   iterm2,
   osx,
-  zsh-syntax-highlighting
 )
 
 # sources oh-my-zsh
@@ -29,6 +25,7 @@ export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
 export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/rsa_id"
+export GPG_TTY=$(tty)
 
 # Editor Settings
 # Sets neovim as default editor if it is installed
