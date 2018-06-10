@@ -37,6 +37,7 @@ hi VertSplit guifg=#181818 guibg=#181818 guisp=#181818 gui=NONE ctermfg=255 cter
 let g:airline_theme='murmur'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_extensions = ['tabline']
 
 " javascript autocompletion
 let g:javascript_plugin_jsdoc = 1
@@ -55,6 +56,7 @@ hi PmenuSel ctermbg=blue ctermfg=white
 set updatetime=100
 
 " Markdown Preview
+" <C-p> to launch preview
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='brave'
 " Un-Comment in no internet connection is available

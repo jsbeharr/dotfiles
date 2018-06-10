@@ -37,8 +37,13 @@ fi
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+# GPG 
+export GPG_TTY=$(tty)
 
 # alias
 if [ -f ~/.aliases ]; then
   . ~/.aliases
 fi
+
+# Andaconda python programs
+. /anaconda3/etc/profile.d/conda.sh
