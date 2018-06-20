@@ -1,7 +1,7 @@
 [user]
 	name = justinbeharry
 	email = jsbeharr@umich.edu
-	signingkey = 6B66F21D565E9F8B
+	signingkey = 3A4158228BD22446
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
