@@ -16,6 +16,6 @@ do
     mv ~/old_$file ~/old_dotfiles
     echo "moved old .$file into old_dotfiles/"
   fi
-  cp $file ~/.$file
-  echo "Copied $file into home"
+  ln -s ~/dotfiles/$file ~/.$file
+  echo "Symlink $file into home directory"
 done
