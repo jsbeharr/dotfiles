@@ -26,6 +26,8 @@ cmake-build-debug/
 
 # misc
 /.sass-cache
+/__pycache__
+/.pytest_cache
 /connect.lock
 /coverage
 /libpeerconnection.log
