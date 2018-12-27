@@ -34,9 +34,10 @@ fi
 
 # Bash Autocompletion for mac
 # Must install through homebrew in order to work
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#   . $(brew --prefix)/etc/bash_completion
+# fi
+
 # GPG 
 export GPG_TTY=$(tty)
 
@@ -46,4 +47,4 @@ if [ -f ~/.aliases ]; then
 fi
 
 # Andaconda python programs
-. /anaconda3/etc/profile.d/conda.sh
+# . /anaconda3/etc/profile.d/conda.sh
