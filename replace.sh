@@ -5,7 +5,7 @@
 # Any old dotfile with be marked as old_<file> and placed
 # in a new folder called old_dotfiles
 
-FILES=$(ls ~/dotfiles | egrep -v "brew_installation.sh|collect.sh|README.md|iterm2_profile|replace.sh")
+FILES=$(ls ~/dotfiles | egrep -v "README.md|replace.sh")
 
 mkdir ~/old_dotfiles
 
