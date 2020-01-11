@@ -5,7 +5,7 @@
 # export PATH="/usr/local/bin:/usr/bin:/bin:/anaconda3/bin"
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
-export PS1="\[\033[1;31m\][\[\033[1;35m\]\d \[\033[1;34m\]\u:\[\033[1;33m\]\W \[\033[1;31m\]] \[\033[1;32m\]$\[\033[0m\] "
+export PS1="\[\033[1;31m\][\[\033[1;35m\]\d \[\033[1;34m\]\u:\[\033[1;33m\]\W\[\033[1;31m\]]\$(__git_ps1 '(%s)')\[\033[1;32m\]$\[\033[0m\] "
 export PS2="\[\033[1;31m\]> \[\033[0m\]"
 
 # Default Editor
